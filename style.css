@@ -83,7 +83,7 @@ header {
 /* قسم الهيرو */
 .hero-section {
     height: 90vh;
-    background: linear-gradient(to bottom, rgb(0 0 0 / 30%), rgb(0 0 0 / 81%)), url(/images/1.png);
+    background: linear-gradient(to bottom, rgb(0 0 0 / 30%), rgb(0 0 0 / 81%)), url(/1.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -169,7 +169,7 @@ background:#efac00 ;
 
 /* شبكة الخدمات */
 .services-section {
-    padding: 100px 0;
+    padding: 0px 0;
     /* وضع صورة تعبر عن الطيران أو الجليد */
     background: linear-gradient(to bottom, rgb(0 0 0 / 60%), rgb(0 0 0 / 50%)), url(/images/LV3.png);
     background-size: cover;
@@ -252,7 +252,7 @@ color: white;
 .why-us-section {
     padding: 200px 0;
     /* وضع صورة تعبر عن الطيران أو الجليد */
-    background: linear-gradient(to bottom, rgb(0 0 0 / 82%), rgb(0 0 0 / 76%)), url(/images/lv4.png) center / cover ;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 82%), rgb(0 0 0 / 76%)), url(/lv4.png) center / cover ;
     background-size: cover;
     background-position: center;
     color: var(--white-color);
@@ -280,7 +280,6 @@ color: white;
 /* الفوتر */
 .footer-hero {
     height: 60vh;
-    background: url('/images/LV3.png') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,13 +291,15 @@ color: white;
     color: var(--gold);
     font-size: 2rem;
     letter-spacing: 5px;
+    color: white;
+        font-family: 'FontAwesome';
 }
 
 
 /* About us section  */
 .about-section {
 padding: 25px 0;
-background:linear-gradient(to bottom, rgb(0 0 0 / 38%), rgb(0 0 0 / 55%)), url(/images/lv2.png);
+background:linear-gradient(to bottom, rgb(0 0 0 / 38%), rgb(0 0 0 / 55%)), url(/lv2.png);
 
 }
 
